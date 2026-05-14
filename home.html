@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Portfolio </title>
+    </head>
+    <body style="background-color:powderblue;">
+        <style>
+            h1 {
+                 text-align: center;
+                 color:rgb(175,34,42);
+                 font-size: 40px;
+            }
+            h1, p {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 8px;
+            }
+            h1 span, p span {
+                border: 2px solid rgb(175,34,42);
+                padding: 8px 12px;
+                border-radius: 4px;
+                display: inline-block;
+            }
+            p {
+                text-align: center;
+                 color:rgb(175,34,42);
+            }
+            a {
+                 font-size: 24px;
+                 color:rgb(175,34,42);
+                 border: 2px solid rgb(175,34,42);
+                 padding: 8px 12px;
+                 margin: 0 4px;
+                 display: inline-block;
+                 border-radius: 4px;
+            }
+            .link-box {
+                 display: inline-flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: center;
+                 border: 2px solid rgb(175,34,42);
+                 padding: 12px;
+                 border-radius: 8px;
+                 margin: 0 4px;
+            }
+            .link-box a {
+                 border: none;
+                 padding: 0;
+                 margin: 0 0 8px 0;
+            }
+            .link-box img {
+                 display: block;
+                 max-width: 250px;
+                 width: 100%;
+                 height: auto;
+                 border-radius: 4px;
+            }
+            .link-box.bio-box {
+                 padding: 8px;
+            }
+            .link-box.bio-box img {
+                 max-width: 250px;
+            }
+        </style>
+        
+        <h1>Mason Cook</h1>
+        <div style="display: block; text-align: center;">
+        <span class="link-box bio-box"><a href="bio.html">Bio</a>
+        <img src="IMG_0329.jpeg" width="200" height="266.67"></span>
+        <span class="link-box"><a href="projects.html">Projects</a>
+        <img src="IMG_4793.jpeg" width="200" height="266.67"></span>
+        <span class="link-box"><a href="inspiration.html">Inspiration</a>
+        <img src="War_Thunder_PSN_Cover_Art_2015_Playstation_4.png" width="200" height="200"></span>
+        </div>
+    </body>
+</html>
